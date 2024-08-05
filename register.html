@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+
+<body>
+    <h1>Register Page</h1>
+    <form action="/loginresponse.html">
+        <dl>
+            <dt>
+                <label for="username">USERNAME</label>
+            </dt>
+            <dd>
+                <input type="username" name="username" id="username" required>
+            </dd>
+            <dt>
+                <lable for="pass">PASSWORD</lable>
+            </dt>
+            <dd>
+                <input type="password" name="pasword" id="pass" required minlength="8" maxlength="16">
+            </dd>
+            <dt>
+                <label for="email">EMAIL</label>
+            </dt>
+            <dd>
+                <input type="email" name="email" id="email" required>
+            </dd>
+            <dt>
+                <label for="phno">MOBILE NUMBER</label>
+            </dt>
+            <dd>
+                <input type="number" name="phno" id="phno" required>
+            </dd>
+            <dt>
+                <label for="">Gender</label>
+            </dt>
+            <dd>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+            </dd>
+            <dd>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </dd>
+            <dt>
+                <label for="dob">DOB</label>
+            </dt>
+            <dd>
+                <input type="date" name="dob" id="dob" required>
+            </dd>
+        </dl>
+        <input type="submit" value="Register">
+
+
+        
+    </form>
+    <a href="./login.html">Go Back</a>
+
+</body>
+
+</html>
